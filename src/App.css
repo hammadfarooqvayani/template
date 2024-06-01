@@ -1,38 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
-  text-align: center;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rightleft {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 55px;
+  margin: 16px !important;
+  padding-bottom: 67px;
+}
+
+.header {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  max-width: 1400px;
+}
+
+.line {
+  margin-top: 12px;
+}
+
+.bol {
+  background-color: black;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.left {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 100%;
+  vertical-align: middle;
+}
+.card1 {
+  background-color: white;
+  padding: 0.01em 16px;
+  padding-bottom: 10px;
+}
+
+.pan {
+  opacity: 0.6;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+}
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+b {
+  font-weight: bolder;
+}
+
+.cardbtn {
+  padding: 12px 24px !important;
+  background-color: white;
+  border: 1px solid #e7e7e7;
+  font: inherit;
+}
+.gap {
+  margin: 35px 0px 15px 0px;
+}
+.comentcom {
+  float: right;
+}
+
+.zero {
+  margin: 4px;
+  padding: 2px 8px;
+  border: 1px solid black;
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.coloum {
+  width: 65%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 993px) {
+  .coloum {
+    width: 66.66666%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.second {
+  margin-top: 40px;
+}
+
+.two {
+  margin: 2px;
+  padding: 2px 8px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 17px;
+}
+
+.cardbtn:hover {
+  background-color: gainsboro;
+}
+
+.rightsection {
+  margin-left: 30px !important;
+  width: 35%;
+  height: auto;
+}
+
+.img {
+  width: 100%;
+  vertical-align: middle;
+}
+.back {
+  background-color: white;
+  vertical-align: middle;
+}
+.card2 {
+  margin-top: 25px;
+  padding-top: 5px;
+  background-color: #f1f1f1 !important;
+}
+
+.namecard {
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.post {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+  background-color: white;
+}
+
+.p {
+  font-family: "Raleway", sans-serif;
+  padding-left: 10px;
+  padding: 8px;
+}
+
+li {
+  list-style: none;
+}
+
+.lis {
+  width: 50px;
+  float: left;
+  vertical-align: middle;
+  margin-right: 16px !important;
+}
+
+.pa {
+  font-size: 18px !important;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+li {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+li:hover {
+  background-color: #ccc;
+}
+.last {
+  margin-top: 25px;
+  padding-top: 5px;
+  background-color: #f1f1f1 !important;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.tag {
+  color: #000 !important;
+  background-color: #fff !important;
+  padding: 0.01em 16px;
+  overflow: auto;
+}
+
+.four {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+  margin-bottom: 16px !important;
+  font-size: 12px !important;
+  margin-left: 6px;
+  margin-top: 9px;
+}
+
+.one {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.fut {
+  color: #fff !important;
+  background-color: #616161 !important;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  margin-top: 16px !important;
+  padding: 0.01em 16px;
+}
+.ON {
+  color: #fff !important;
+  background-color: #000 !important;
+  padding: 12px 24px !important;
+  margin-bottom: 16px !important;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font: inherit;
+}
+
+.off {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.ON:hover {
+  color: #ddd;
 }
